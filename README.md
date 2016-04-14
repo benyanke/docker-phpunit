@@ -1,4 +1,4 @@
-# PHPUnit container for Laravel
+# PHPUnit docker image for Laravel
 
 This is a [Docker](http://www.docker.com) image for [phpunit CLI](https://phpunit.de/) to be used with the [Laravel PHP Framework](http://laravel.com/).
 
