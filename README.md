@@ -1,4 +1,4 @@
-# Docker composer for Laravel
+# PHPUnit container for Laravel
 
 This is a [Docker](http://www.docker.com) image for [phpunit CLI](https://phpunit.de/) to be used with the [Laravel PHP Framework](http://laravel.com/).
 
@@ -11,7 +11,7 @@ This image works well with the below related images.
   - [vcarreira/composer](https://registry.hub.docker.com/u/vcarreira/composer)
   - [vcarreira/phpspec](https://registry.hub.docker.com/u/vcarreira/phpspec)
 
-## Running composer commands
+## Running phpunit commands
 The container working directory is the volume ```/var/www```. You can run any phpunit command like this:
 
 ```
