@@ -4,12 +4,16 @@ This is a [Docker](http://www.docker.com) image for [phpunit CLI](https://phpuni
 
 An automated build for this repo is available on the [Docker Hub](https://registry.hub.docker.com/u/vcarreira/phpunit/).
 
-This image works well with the below related images.
+This image works well when used with the [Docker Laravel](https://github.com/vcarreira/docker-laravel) multi-container solution.
 
+## Images used by [Docker Laravel](https://github.com/vcarreira/docker-laravel)
   - [vcarreira/nginx-php5-fpm](https://registry.hub.docker.com/u/vcarreira/nginx-php5-fpm)
-  - [vcarreira/artisan](https://registry.hub.docker.com/u/vcarreira/artisan)
+  - [vcarreira/redis](https://registry.hub.docker.com/u/vcarreira/redis)
   - [vcarreira/composer](https://registry.hub.docker.com/u/vcarreira/composer)
+  - [vcarreira/artisan](https://registry.hub.docker.com/u/vcarreira/artisan)
+  - [vcarreira/node](https://registry.hub.docker.com/u/vcarreira/node)
   - [vcarreira/phpspec](https://registry.hub.docker.com/u/vcarreira/phpspec)
+  - [vcarreira/phpunit](https://registry.hub.docker.com/u/vcarreira/phpunit)
 
 ## Running phpunit commands
 The container working directory is the volume ```/var/www```. You can run any phpunit command like this:
