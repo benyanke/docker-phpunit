@@ -1,8 +1,8 @@
 # PHPUnit docker image for Laravel
 
-This is a [Docker](http://www.docker.com) image for [phpunit CLI](https://phpunit.de/) to be used with the [Laravel PHP Framework](http://laravel.com/).
+This is a [Docker](http://www.docker.com) image for [phpunit CLI](https://phpunit.de/) to be used with a [Laravel PHP Framework](http://laravel.com/) setup. It will use the phpunit from ```vendor/bin``` so that syntax color is enabled.
 
-An automated build for this repo is available on the [Docker Hub](https://registry.hub.docker.com/u/vcarreira/phpunit/).
+An automated build for this repo is available on the [Docker Hub](https://registry.hub.docker.com/u/vcarreira/phpunit-laravel/).
 
 This image works well when used with the [Docker Laravel](https://github.com/vcarreira/docker-laravel) multi-container solution.
 
